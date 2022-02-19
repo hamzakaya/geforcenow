@@ -16,5 +16,5 @@ export const getData = () =>
     if (!Array.isArray(fakeData))
       return setTimeout(() => reject(new Error('Data not found')), 250)
 
-    setTimeout(() => resolve(fakeData as IGame[]), 30)
+    setTimeout(() => resolve(fakeData as IGame[]), 500)
   })

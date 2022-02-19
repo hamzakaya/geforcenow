@@ -1,6 +1,14 @@
 import { useMemo } from 'react'
 import { useGeforceNowGames } from './core'
-import { Filter, GameList, Header, Footer, Search, SortSelect } from './ui'
+import {
+  Filter,
+  GameList,
+  Header,
+  Footer,
+  Search,
+  SortSelect,
+  Loading,
+} from './ui'
 
 export default () => {
   const {
@@ -29,6 +37,8 @@ export default () => {
     ],
     [loading],
   )
+
+  if (loading) return <Loading />
 
   return (
     <>
