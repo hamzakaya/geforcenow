@@ -1,0 +1,40 @@
+@import url('./fonts.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    user-select: none;
+    outline: none !important;
+}
+
+body {
+    font-family: GreycliffCF;
+    background-color: black;
+}
+
+.box {
+    @apply flex items-center content-center justify-center text-xl font-bold text-gray-100 bg-indigo-700 rounded;
+}
+
+.item {
+    @apply flex items-center content-center justify-center text-xl font-bold text-gray-100 bg-indigo-700 rounded;
+}
+
+.sub-button {
+    @apply h-10 py-0 pl-px pr-0 text-base not-italic tracking-wide text-center;
+    width: 387px;
+    font-family: GreycliffCF;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: normal;
+}
+
+.game-item {
+    @apply min-w-full min-h-full rounded;
+}
+
+.menu-active::before {
+    background-image: url('../../assets/menu-hover.svg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}

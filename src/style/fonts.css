@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url(/assets/fonts/GreycliffCF-Bold.841c6e60.eot);
+    src: url(/assets/fonts/GreycliffCF-Bold.841c6e60.eot) format('embedded-opentype'), url(/assets/fonts/GreycliffCF-Bold.c07cd321.woff2) format('woff2'), url(/assets/fonts/GreycliffCF-Bold.6b483047.woff) format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url(/assets/fonts/GreycliffCF-Medium.f20a3dff.eot);
+    src: url(/assets/fonts/GreycliffCF-Medium.f20a3dff.eot) format('embedded-opentype'), url(/assets/fonts/GreycliffCF-Medium.85684335.woff2) format('woff2'), url(/assets/fonts/GreycliffCF-Medium.4537facd.woff) format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url(/assets/fonts/GreycliffCF-Medium.f20a3dff.eot);
+    src: url(/assets/fonts/GreycliffCF-Medium.f20a3dff.eot) format('embedded-opentype'), url(/assets/fonts/GreycliffCF-Medium.85684335.woff2) format('woff2'), url(/assets/fonts/GreycliffCF-Medium.4537facd.woff) format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url(/assets/fonts/GreycliffCF-ExtraBold.b195b2da.eot);
+    src: url(/assets/fonts/GreycliffCF-ExtraBold.b195b2da.eot) format('embedded-opentype'), url(/assets/fonts/GreycliffCF-ExtraBold.e0342374.woff2) format('woff2'), url(/assets/fonts/GreycliffCF-ExtraBold.fd383d4d.woff) format('woff');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url(/assets/fonts/GreycliffCF-Heavy.5582bf3f.eot);
+    src: url(/assets/fonts/GreycliffCF-Heavy.5582bf3f.eot) format('embedded-opentype'), url(/assets/fonts/GreycliffCF-Heavy.d231db4c.woff2) format('woff2'), url(/assets/fonts/GreycliffCF-Heavy.793864c1.woff) format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
