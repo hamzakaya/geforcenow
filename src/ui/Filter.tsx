@@ -20,7 +20,7 @@ export default function Filter({ title, list, setSelected }: IFilterProps) {
           {title}
 
           <div className="absolute top-0 right-0">
-            <UpDownIcon status={!show} />
+            <UpDownIcon status={show} />
           </div>
         </span>
         <div
