@@ -11,7 +11,7 @@ export default function useGeforceNowGames() {
   // state in hook
   const [data, setData] = useState<IGame[]>([])
   const [sortType, setSortType] = useState<keyof typeof ISortType>(
-    ISortType.desc,
+    ISortType.asc,
   )
   const [searchText, setSeachText] = useState<string>('')
 
@@ -85,8 +85,8 @@ export default function useGeforceNowGames() {
 
     const firstCharacters =
       sortType === ISortType.asc
-        ? Object.keys(firstCharactersGroup).sort().reverse()
-        : Object.keys(firstCharactersGroup).sort()
+        ? Object.keys(firstCharactersGroup).sort()
+        : Object.keys(firstCharactersGroup).sort().reverse()
 
     const firstCharactersGames = (firstCharacters: string) =>
       firstCharactersGroup[firstCharacters].games

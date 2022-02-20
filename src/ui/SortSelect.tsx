@@ -4,8 +4,8 @@ import { ISortProps, ISortType, useClickOutside } from '../core'
 import UpDownIcon from './UpDownIcon'
 
 const content = {
-  [ISortType.desc]: 'Sırala A-Z',
-  [ISortType.asc]: 'Sırala Z-A',
+  [ISortType.asc]: 'Sırala A-Z',
+  [ISortType.desc]: 'Sırala Z-A',
 }
 
 export default ({ sortType, setSortType }: ISortProps) => {
