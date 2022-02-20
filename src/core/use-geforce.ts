@@ -60,8 +60,8 @@ export default function useGeforceNowGames() {
     }))
 
     const genres = Array.from(new Set(data.flatMap((game) => game.genres)))
-      .map((key) => ({ key, value: key }))
       .sort()
+      .map((key) => ({ key, value: key }))
 
     const firstCharactersGroup = data.reduce(
       (
