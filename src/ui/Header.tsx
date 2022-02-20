@@ -6,25 +6,21 @@ export default () => (
     <div className="max-w-screen-xl p-4 mx-auto">
       <div className="flex items-center justify-between space-x-4 lg:space-x-10">
         <div className="flex lg:w-0 lg:flex-1">
-          <a
-            href="/"
-            className="h-full leading-6 bg-transparent cursor-pointer w-80"
-          >
+          <a className="h-full leading-6 bg-transparent cursor-pointer w-80">
             <img src={logo} />
           </a>
         </div>
         <nav className="hidden -mt-1 space-x-8 text-base font-semibold md:flex">
-          <a className="relative menu-active before:-bottom-8 before:-inset-1 before:absolute text-green">Games</a>
+          <a className="relative menu-active before:-bottom-8 before:-inset-1 before:absolute text-green">
+            Games
+          </a>
           <a>Membership</a>
           <a>Download</a>
           <a>Blog</a>
           <a>Support</a>
         </nav>
         <div className="items-center justify-end flex-1 hidden space-x-4 sm:flex">
-          <a
-            className="px-16 py-3 text-sm font-semibold text-white bg-green"
-            href=""
-          >
+          <a className="px-16 py-3 text-sm font-semibold text-white bg-green">
             LET'S PLAY
           </a>
         </div>
